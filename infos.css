@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #F375B6;
+    font-family: 'Carter One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    height: 100px;
+    margin-top:50px;
+    position: absolute;
+}
+header .user {
+    right: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+}
+
+header .back-arrow{
+    position: absolute;
+    left: 20px;
+}
+.lottery-container {
+    background: linear-gradient(180deg, rgba(210,124,252,1) 0%, rgba(0,204,254,1) 100%);
+    font-family: 'Carter One';
+
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lottery-header {
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+.lottery-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.buy-tickets {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s;
+}
+
+.lottery-nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background: url('img/navbar2.png') no-repeat center center;
+    background-size: 110%;
+}
+
+.lottery-nav img {
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.ticket {
+    height: 130px;
+    width: 90%;
+    background-color: #F9D955;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.blank {
+    background-color: #FFF8E2;
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-family: 'Carter One';
+    color: #701130;
+    margin-left: 15px;
+}
+.playersList {
+    background: linear-gradient(180deg, rgba(97,135,247,1) 0%, rgba(160,90,242,1) 100%);
+    border-radius: 20px;
+    border: 7px solid;
+    border-bottom: 0;
+    border-color: white;
+    width: 80%;
+    padding: 0px 20px 20px 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.player-list .Title {
+    justify-content: center;
+    display: flex;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+}
+
+.player {
+    padding: 10px;
+}
+.KPI{
+    font-size: 1rem;
+}

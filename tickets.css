@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    height: 40px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #F375B6;
+    font-family: 'Carter One';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    height: 100px;
+    margin-top:50px;
+    position: absolute;
+}
+header .user {
+    right: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    display: flex;
+}
+
+header .back-arrow{
+    position: absolute;
+    left: 20px;
+}
+.lottery-container {
+    background: linear-gradient(180deg, rgba(210,124,252,1) 0%, rgba(0,204,254,1) 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lottery-header {
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+.lottery-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.buy-tickets {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s;
+}
+
+.lottery-nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background: url('img/navbar2.png') no-repeat center center;
+    background-size: 110%;
+}
+
+.lottery-nav img {
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.ticket {
+    height: 130px;
+    width: 90%;
+    background: transparent;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+button{
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}

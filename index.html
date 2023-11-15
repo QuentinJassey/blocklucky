@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grande Loterie d'Etherbay</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+</head>
+<body>
+    <div class="lottery-container">
+        <header class="lottery-header">
+            <img src="img/logo.png" alt="Grande Loterie d'Etherbay">
+            <div id="Time"></div>
+        </header>
+        
+        <main class="lottery-main">
+            <div class="jackpot">
+                <h2 class="title">Cagnotte :</h2>
+                <p><span class="lotteryBalance" id="lotteryBalance"></span> ETH</p>
+            </div>
+            <a href="tickets.html" class="buy-tickets"><img src="img/Button.png" alt="Acheter des tickets" class="button"></a>
+        </main>
+        
+        <nav class="lottery-nav">
+            <a href="#"><img src="img/Home.png" alt="Accueil"></a>
+            <a href="infos.html"><img src="img/App.png" alt="Info"></a>
+            <a href="#"><img src="img/Settings.png" alt="Paramètres"></a>
+        </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.4.0/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

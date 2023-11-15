@@ -1,0 +1,98 @@
+body, html {
+    
+    height: 100%;
+    margin: 0;
+}
+
+.lottery-container {
+    background: linear-gradient(180deg, rgba(210,124,252,1) 0%, rgba(0,204,254,1) 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lottery-header {
+    background-size: cover;
+    padding: 0px;
+    text-align: center;
+}
+
+.lottery-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.jackpot {
+    background: url('img/jackpot.png') no-repeat center center;
+    background-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+    font-family: 'Carter One';
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.jackpot .title {
+    font-size: 1.2rem;
+    align-self: flex-start;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.jackpot .lotteryBalance {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.jackpot img {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.jackpot p{
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.buy-tickets {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s;
+}
+
+.lottery-nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background: url('img/navbar1.png') no-repeat center center;
+    background-size: 110%;
+}
+
+.lottery-nav img {
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.winner{
+    font-size: 2rem;
+}

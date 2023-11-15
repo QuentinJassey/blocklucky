@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acheter des tickets</title>
+    <link rel="stylesheet" href="infos.css">
+    <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+</head>
+<body>
+    <div class="lottery-container">
+        <header class="lottery-header">
+            <a href="#" onclick="history.go(-1)" class="back-arrow"><img src="img/back.png" alt="Acheter des tickets" class="back"></a>
+            <img class="logo" src="img/logo.png" alt="Grande Loterie d'Etherbay">
+            <span id="User" class="user"></span>
+        </header>
+        
+        <main class="lottery-main">
+            <div class="playersList">
+                <h2 class="Title">Joueurs : <span id="nbPlayers"></span></h2>
+                <h2 class="KPI" id="PurchasedTickets">Tickets Achetés :<span></span></h2>
+                <h2 class="KPI" id="RemainingTickets">Tickets Restants :<span></span></h2>
+                <div class="player" id="Player"></div>
+            </div>
+        </main>
+        
+        <nav class="lottery-nav">
+            <a href="index.html"><img src="img/Home.png" alt="Accueil"></a>
+            <a href="infos.html"><img src="img/App.png" alt="Info"></a>
+            <a href="#"><img src="img/Settings.png" alt="Paramètres"></a>
+        </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.4.0/dist/web3.min.js"></script>
+    <script src="infos.js"></script>
+</body>
+</html>
